@@ -6,7 +6,7 @@
 
 
 
-long int two_pass::calculate(const std::vector<std::string> &&calcTokens) {
+long int two_pass::calculate(const std::vector<std::string> &calcTokens) {
     // implicitly lead with a "0", "+"
     int workval = 0;
     MathOpr workopr = MathOpr::PLUS;

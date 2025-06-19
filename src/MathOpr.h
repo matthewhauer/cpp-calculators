@@ -15,18 +15,6 @@ enum class MathOpr{
     DIV
 };
 
-MathOpr parseToken(const std::string &str){
-    switch(str[0]){
-        case '+':
-            return MathOpr::PLUS;
-        case '-':
-            return MathOpr::MINUS;
-        case '*':
-            return MathOpr::MULT;
-        case '/':
-            return MathOpr::DIV;
-    }
-    return MathOpr::NONE;
-};
+MathOpr parseToken(const std::string &str);
 
 #endif //CPP_CALCS_MATHOPR_H

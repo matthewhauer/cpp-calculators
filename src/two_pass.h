@@ -12,7 +12,7 @@
 
 class two_pass {
 public:
-    static long int calculate(const std::vector<std::string> &&);
+    static long int calculate(const std::vector<std::string> &);
 };
 
 

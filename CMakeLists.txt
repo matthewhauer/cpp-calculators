@@ -15,7 +15,7 @@ include_directories(.)
 enable_testing()
 
 SET(cpp_calcs_srcs
-        src/two_pass.cpp src/two_pass.h)
+        src/two_pass.cpp src/two_pass.h src/MathOpr.cpp)
 
 SET(calc_test_srcs
         tests/two_pass_tests.cpp)
